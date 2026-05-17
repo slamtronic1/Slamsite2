@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>موقعي Firebase</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>مرحبا بك 👋</h1>
+
+    <p>
+      اكتب رسالة وسيتم حفظها داخل Firebase
+    </p>
+
+    <input
+      type="text"
+      id="messageInput"
+      placeholder="اكتب رسالتك هنا"
+    >
+
+    <button onclick="saveMessage()">
+      حفظ الرسالة
+    </button>
+
+    <div id="status"></div>
+
+    <div class="welcome-box">
+      <h2>عن الفريق</h2>
+
+      <p>
+        نحن فريق تطوير يعمل على بناء مواقع وتطبيقات حديثة
+        باستعمال تقنيات الويب وFirebase.
+      </p>
+    </div>
+
+  </div>
+
+  <script type="module" src="script.js"></script>
+
+</body>
+</html>
